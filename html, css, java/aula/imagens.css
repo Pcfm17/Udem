@@ -1,0 +1,34 @@
+body{
+    background-image: url(th.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    width: 70%;
+    margin: auto;
+}
+.img-html{
+    float: left;
+    height: auto;
+    width: auto;
+}
+.img1-html{
+    float: right;
+}
+p{
+    line-height: 4;
+    color: black;
+}
+h1{
+    background-color: gray;
+    color: darkblue;
+    text-align: center;
+}
+h1:hover{
+    background-color: lime;
+    color: firebrick;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}

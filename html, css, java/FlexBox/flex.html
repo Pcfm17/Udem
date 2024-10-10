@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex</title>
+
+        <style>
+
+            .flex{
+                border: 2px solid red;
+                width: 100%;
+                height: 500px;
+                display: flex;
+                padding: 50px;
+            }
+
+            .container{
+                display: flex;
+                border: 5px solid blue;
+                padding: 50px;
+                width: 100%;
+                height: 500px;
+                
+                flex-direction: row;
+                align-items: start;
+                margin-bottom: auto;
+
+            }
+            .container .div1{
+                width: 1000px;
+                border: 2px solid red;
+                margin-right: 10px;
+            }
+
+            .container di{justify-content: center;margin: auto;}
+
+            .containerr1{
+                
+            }
+            .container1 .div2{
+                width: 30px;
+                width: 1000px;
+                margin-right: 10px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="div1">Olá</div>
+            <div class="div1">Bionogiono</div>
+            <div class="div1">Good morning</div>
+        </div>
+
+        <div class="container1 flex"></div>
+            <div class="div2">Olá</div>
+            <div class="div2">Bionogiono</div>
+            <div class="div2">Good morning</div>
+        </div>
+    </body>
+</html>

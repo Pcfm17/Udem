@@ -1,0 +1,80 @@
+.p1{
+    background-color: black;
+    margin: 0%;
+}
+.p1 span{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.p1 span a{
+    color: gray;
+    padding: 10px;
+}
+.p1 span .a1:hover{
+    background-color: rgb(84, 151, 246);
+}
+.p1 span .a2:hover{
+    background-color: rgb(246, 84, 181);
+}
+.p1 span .a3:hover{
+    background-color: rgb(247, 31, 56);
+}
+.p1 span a:hover{
+    text-align: center;
+    color: gray;
+    background-color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+.p2{
+    padding: 50px;
+    margin: 0%;
+    text-align: 70% right;
+}
+.p2 .div1 span{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+.p2 .div2 span .a4{
+    background-color: white;
+    color: darkblue;
+    border: 2px;
+}
+.p2 .div2 span .a4:hover{
+    background-color: blue;
+    color: white;
+}
+.a4{
+    border: 5px;
+}
+
+
+
+.p3{
+    background-color: blue;
+    padding: 15px;
+    margin: 0%;
+    justify-content: flex-end;
+    margin: 0%
+}
+.p3 span{
+    padding: 5px;
+    text-align: center;
+}
+.p3 span a{
+    color: white;
+}
+.p3 span a:hover{
+    color: gray;
+}

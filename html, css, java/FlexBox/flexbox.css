@@ -1,0 +1,28 @@
+.flexbox{
+    height: 250px;
+    border: 3px solid red;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.flexbox div{
+    border: 2px solid orange;
+    width: 150px;
+    margin: 15px;
+}
+
+.flex-container1{
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.flex-container2{
+    justify-content: flex-end;
+}
+
+.flex-container2 div{
+    width: 30px;
+    
+}
